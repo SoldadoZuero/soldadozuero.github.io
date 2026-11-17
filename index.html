@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <script src="./scripts.js" type="text/javascript"></script>
+</head>
+ <body>
+  <header class="site-header canva-header">
+   <div class="wrap header-inner"><a class="brand canva-link" href="#inicio" aria-label="Voltar ao início"><span class="brand-mark">I</span> Inicio</a>
+    <nav class="canva-menu" aria-label="Navegação principal"><a class="canva-link" href="#sobre">Sobre</a> <a class="canva-link" href="#experiencia">Experiência</a> <a class="canva-link" href="#competencias">Competências</a> <a class="canva-link" href="#projeto">Projeto</a> <a class="header-contact canva-link" href="#contato">Contato ↗</a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section id="inicio" class="hero canva-section">
+    <div class="wrap hero-inner">
+     <div>
+      <div class="eyebrow canva-text">
+       Olá, eu sou
+      </div>
+      <h1 id="nome" data-field="personalInformation.fullName"></h1>
+      <p id="titulo-profissional" class="hero-title canva-text" data-field="personalInformation.professionalTitle"></p>
+      <p id="resumo-hero" class="hero-summary canva-text" data-field="professionalSummary.description"></p>
+      <div class="hero-actions"><a class="button button-primary canva-button" href="#projeto">Conheça meu projeto <span aria-hidden="true">↗</span></a> <a class="button button-outline canva-button" href="" data-field="personalInformation.email">Entre em contato <span aria-hidden="true">↗</span></a>
+      </div>
+     </div>
+     <div class="hero-art" aria-hidden="true">
+      <div class="orbit">
+       <div class="orbit-core">
+        W.
+       </div>
+      </div><span class="art-label one">FULL STACK / WEB</span> <span class="art-label two">DESENVOLVIMENTO + INOVAÇÃO</span>
+     </div>
+    </div>
+   </section>
+   <div class="status-strip canva-banner">
+    <div class="wrap status-inner"><span class="status-item" data-field="personalInformation.location"></span> <span class="status-item" data-field="additionalInformation.availability"></span> <span class="status-item" data-field="additionalInformation.workModel"></span> <span class="status-item" data-field="additionalInformation.travelAvailability"></span>
+    </div>
+   </div>
+   <section id="sobre" class="section canva-section">
+    <div class="wrap">
+     <div class="section-head">
+      <div>
+       <p class="section-kicker">01 / Perfil</p>
+       <h2>Sobre mim</h2>
+      </div>
+     </div>
+     <div class="about-grid">
+      <article class="card canva-card">
+       <p class="card-label">Objetivo profissional</p>
+       <p id="objetivo" class="about-copy canva-text" data-field="professionalSummary.careerObjective"></p>
+      </article>
+      <article class="card canva-card">
+       <p class="card-label">Em perspectiva</p><strong class="metric" data-field="professionalSummary.yearsOfExperience"></strong>
+       <p class="objective">de experiência informada no perfil profissional.</p>
+       <p class="objective" style="margin-top:24px"><strong>Especialização:</strong> <span data-field="professionalSummary.mainSpecialization"></span></p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section id="experiencia" class="section dark-section canva-section">
+    <div class="wrap">
+     <div class="section-head">
+      <div>
+       <p class="section-kicker">02 / Trajetória</p>
+       <h2>Experiência profissional</h2>
+      </div>
+      
+     </div>
+     <div class="experience-list" data-collection="professionalExperience">
+     </div>
+    </div>
+   </section>
+   <section id="competencias" class="section canva-section">
+    <div class="wrap">
+     <div class="section-head">
+      <div>
+       <p class="section-kicker">03 / Conhecimentos</p>
+       <h2>Competências técnicas</h2>
+      </div>
+      <p class="section-note">Tecnologias e ferramentas presentes no meu perfil.</p>
+     </div>
+     <div class="skills-grid" data-collection="skills.technical">
+      
+    </div>
+   </section>
+   <section id="projeto" class="section canva-section" style="padding-top:0">
+    <div class="wrap">
+     <div class="section-head">
+      <div>
+       <p class="section-kicker">04 / Trabalho em destaque</p>
+       <h2>Projeto &amp; formação</h2>
+      </div>
+     </div>
+     <div class="split-grid">
+      <article id="projeto-portfolio" class="project-card canva-card" data-collection="projects"></article>
+      <div class="info-stack">
+       <article id="formacao" class="card canva-card" data-collection="education">
+        
+       </article>
+       <article id="certificacao" class="card canva-card" data-collection="certifications">
+        
+       </article>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer id="contato" class="footer canva-footer">
+   <div class="wrap">
+    <div class="footer-grid">
+     
+     <div>
+      <h3>Contato &amp; redes</h3>
+      <ul class="footer-list canva-list">
+       <li><a class="canva-link" href="" data-field="personalInformation.email"></a></li>
+       <li><a class="canva-link" href="" data-field="personalInformation.phone"></a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.whatsapp">WhatsApp ↗</a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.linkedin">LinkedIn ↗</a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.github">GitHub ↗</a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.website">Website ↗</a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.socialMedia.twitch">Twitch ↗</a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.socialMedia.instagram">Instagram ↗</a></li>
+       <li><a class="canva-link" href="" target="_blank" rel="noopener noreferrer" data-field="personalInformation.socialMedia.youtube">YouTube ↗</a></li>
+      </ul>
+     </div>
+     <div>
+      <h3>Preferências</h3>
+      <ul class="footer-list canva-list">
+       <li data-field="preferences.preferredWorkModel"></li>
+       <li data-field="preferences.preferredLocations"></li>
+       <li data-field="preferences.targetIndustries"></li>
+      </ul>
+      <h3 style="margin-top:30px">Idiomas</h3>
+      <ul class="footer-list canva-list" data-collection="languages">
+    
+      </ul>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     <span data-field="personalInformation.fullName"></span><span data-field="personalInformation.location"></span>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>

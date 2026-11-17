@@ -1,0 +1,159 @@
+{
+  "cv": {
+    "metadata": {
+      "version": "1.0",
+      "language": "pt-BR",
+      "lastUpdated": "2026-11-17"
+    },
+    "personalInformation": {
+      "fullName": "Willy Pereira de Amorim",
+      "professionalTitle": "Desenvolvedor Full Stack",
+      "profilePhoto": "https://cdn.discordapp.com/attachments/1118499338214182992/1572034836753817620/20260729_231250_1.jpg?ex=6afd8fc8&is=6afc3e48&hm=ad2868273377c4bfab5392f610fce60758a3eb4fac6df29b040f2478d093a8bd&",
+      "email": "contato@soldadozuero.com",
+      "phone": "+55 11 954994608",
+      "whatsapp": "+55 11 954994608",
+      "location": {
+        "city": "Suzano",
+        "state": "SP",
+        "country": "Brasil",
+        "address": ""
+      },
+      "linkedin": "https://www.linkedin.com/in/soldadozuero/",
+      "github": "https://github.com/soldadozuero",
+      "portfolio": "",
+      "website": "https://soldadozuero.com",
+      "socialMedia": {
+        "twitch": "https://www.twitch.tv/soldadozuero",
+        "instagram": "https://www.instagram.com/soldadozuero/",
+        "youtube": "https://www.youtube.com/user/soldadozuero"
+        
+      }
+    },
+    "professionalSummary": {
+      "description": " Sou um desenvolvedor Full Stack apaixonado por tecnologia e inovação, com experiência em desenvolvimento web e mobile. Tenho habilidades em diversas linguagens de programação e frameworks, e estou sempre em busca de novos desafios para aprimorar minhas competências. Meu objetivo é contribuir para projetos que impactem positivamente a sociedade, utilizando minhas habilidades técnicas e criativas.",
+      "yearsOfExperience": 4,
+      "mainSpecialization": " Desenvolvimento Web",
+      "careerObjective": " Busco oportunidades em empresas inovadoras, onde possa aplicar minhas habilidades em desenvolvimento Full Stack, colaborar com equipes multidisciplinares e contribuir para a criação de soluções tecnológicas que façam a diferença na vida das pessoas."
+    },
+    "professionalExperience": [
+      {
+        "company": "Casa Giacomo de Ferragens LTDA",
+        "position": "Assistente de TI",
+        "employmentType": "CLT",
+        "location": "São Paulo, SP, Brasil",
+        "startDate": "2026-09-21",
+        "endDate": "",
+        "current": true,
+        "description": "",
+        "responsibilities": [],
+        "achievements": [],
+        "technologies": ["TOTVS", "ERP", "Active Directory", "Virtualização"]
+      },
+      {
+        "company": "WOW Fiber Internet do Brasil Eireli",
+        "position": "Analista de TI",
+        "employmentType": "CLT",
+        "location": "Suzano, SP, Brasil",
+        "startDate": "2025-08-01",
+        "endDate": "2026-09-19",
+        "current": false,
+        "description": "",
+        "responsibilities": [],
+        "achievements": [],
+        "technologies": ["Redes", "Linux", "Mikrotik", "Huawei", "Roteamento"]}
+    ],
+    "education": [
+      {
+        "institution": "Centro Universitário Piaget",
+        "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+        "fieldOfStudy": "Tecnologia da Informação",
+        "level": "Superior",
+        "startDate": "2026-03-26",
+        "endDate": "2028-06-30",
+        "current": true,
+        "description": ""
+      }
+    ],
+    "skills": {
+      "technical": [
+        {
+          "name": "Python",
+          "level": "Intermediário"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermediário"
+        },
+        {
+          "name": "HTML/CSS",
+          "level": "Intermediário"
+        },
+        {
+          "name": "SQL",
+          "level": "Intermediário"
+        },
+        {
+          "name": "Git",
+          "level": "Intermediário"
+        },
+        {
+          "name": "Django",
+          "level": "Intermediário"
+        }
+      ],
+      "behavioral": [],
+      "tools": [],
+      "methodologies": []
+    },
+    "languages": [
+      {
+        "name": "Português Brasileiro",
+        "proficiency": "Nativo"
+      },
+      {
+        "name": "Inglês",
+        "proficiency": "Avançado"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Engenharia de Prompt",
+        "issuer": "USP - Escola Superior de Agricultura Luiz de Queiroz",
+        "issueDate": "2024-03-23",
+        "expirationDate": "",
+        "controlCode": "MT4T-MBSN-STLJ-DFLP"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Portfolio Pessoal",
+        "description": " Desenvolvimento de um portfólio pessoal para apresentar meus projetos e habilidades como desenvolvedor Full Stack. O site foi construído utilizando HTML, CSS e JavaScript, com foco em design responsivo e experiência do usuário.",
+        "role": " Desenvolvedor Full Stack",
+        "technologies": ["Python", "Django", "HTML", "CSS", "JavaScript", "API REST"],
+        "url": "https://soldadozuero.com",
+        "startDate": "2024-08-23",
+        "endDate": "N/A"
+      }
+    ],
+    "courses": [
+      {
+        "name": "",
+        "institution": "",
+        "completionDate": "",
+        "workloadHours": 0
+      }
+    ],
+    "additionalInformation": {
+      "availability": "A combinar",
+      "workModel": "Remoto",
+      "travelAvailability": true,
+      "additionalNotes": ""
+    },
+    "preferences": {
+      "targetPositions": ["Desenvolvedor Full Stack", "Desenvolvedor Web", "Engenheiro de Software"],
+      "targetIndustries": ["Tecnologia da Informação", "Desenvolvimento de Software", "Startups"],
+      "preferredLocations": ["São Paulo, SP", "Belo Horizonte, MG", "Curitiba, PR", "Porto Alegre, RS"],
+      "preferredWorkModel": "Remoto"
+    }
+  }
+}
